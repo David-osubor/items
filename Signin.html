@@ -6,15 +6,15 @@
     <title>Document</title>
 </head>
 <body class="bg-gray-500">
-    <div class='flex min-h-screen items-center flex-col  justify-center w-full'>
-        <section class="bg-gray-200  md:w-1/2  border border-red-500">
+    <div class='flex min-h-screen items-center w-[100%]  p-6 justify-center w-full'>
+        <section class="bg-gray-200 max-w-lg w-full mx-auto p-6 border border-red-500">
         <h3 class='md:text-3xl text-xl font-bold text-center w-full my-2 py-4'>HOTSPOT LOGIN</h3>
-        <div class=" px-8 py-6 ">
+        <div class=" px-4 py-6 ">
         <form onSubmit={handleSubmit} >
             <div class='my-8'>
                 <label>USERNAME</label>
                 <div class='my-2 w-full'>
-                    <input type="name" class="w-full py-3  placeholder:mr-6 border focus:border-blue-500 focus:outline-none p-8 font-semi-bold focus:ring-0 rounded-lg" 
+                    <input type="name" class="w-full border focus:border-blue-500 focus:outline-none md:p-3 p-2 md:font-semi-bold focus:ring-0 rounded-lg" 
                     placeholder="ENTER USERNAME" />
                     <!-- <AiOutlineMail class='absolute right-2  top-3 text-gray-400'/> -->
                 </div>
@@ -22,7 +22,7 @@
             <div class='my-8 '>
                 <label>PASSWORD</label>
                 <div class='my-2 w-full   '>
-                    <input type="password" class="w-full py-3  placeholder:mr-6 border focus:border-blue-500 focus:outline-none p-8 md:font-semi-bold font-medium focus:ring-0 rounded-lg" placeholder="ENTER PASSWORD"/>
+                    <input type="password" class="w-full py-3 border focus:border-blue-500 focus:outline-none md:p-3 p-2 md:font-semi-bold font-small focus:ring-0 rounded-lg" placeholder="ENTER PASSWORD"/>
                     <!-- <AiFillLock class='absolute right-2  top-3 text-gray-400'/> -->
                 </div>
             </div>
